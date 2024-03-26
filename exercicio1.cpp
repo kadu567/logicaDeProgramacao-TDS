@@ -1,12 +1,15 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
 
-    printf(" Carlos Eduardo 17 anos");
-    
-    printf("\t Ola boa noite");
+    char nome(100);
+    int idade;
+
+    printf("Digite seu nome: ");
+    scanf("%s", nome);
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+    printf("Ola %s! Voce tem %d anos. \n", nome, idade);
 
     return 0;
 }
